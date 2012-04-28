@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/choidi/.vim'
+let g:netrw_dirhist_2='/home/choidi/.vim/autoload'
+let g:netrw_dirhist_3='/home/choidi/.vim/bundle'
+let g:netrw_dirhist_4='/home/choidi/.vim/plugin'
+let g:netrw_dirhist_5='/home/choidi/.vim/plugin/nerdtree'
+let g:netrw_dirhist_6='/home/choidi/study/class/three/大三上/web2.0/homework/hm5'
+let g:netrw_dirhist_7='/home/choidi/study/class/three/大三上/web2.0/homework/hm5/hm5'
+let g:netrw_dirhist_8='/home/choidi/study/class/three/大三上/web2.0/homework/hm5/hm5/09388425'
