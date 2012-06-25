@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Mydotvim : my vim plugins" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mydotvim</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/choidi/mydotvim">View on GitHub</a>
+
+          <h1 id="project_title">Mydotvim</h1>
+          <h2 id="project_tagline">my vim plugins</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/choidi/mydotvim/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/choidi/mydotvim/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>Choidi's vim config</h1>
+
+<h1>Installation</h1>
+
+<ol>
+<li>
+<p>backup your old vim configuration file</p>
+
+<pre><code>mv ~/.vim ~/.vim.orig
+mv ~/.vimrc ~/.vimrc.orig
+</code></pre>
+</li>
+<li>
+<p>Clone and install this repo:</p>
+
+<pre><code>git clone git://github.com/choidi/mydotvimrc.git ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc 
+</code></pre>
+</li>
+</ol><h1>Plugin Categries</h1>
+
+<h2>Code Completion</h2>
+
+<ul>
+<li>
+<a href="http://github.com/ervandew/supertab">supertab</a> -  Perform all your vim insert mode completions with Tab.</li>
+<li>
+<a href="http://github.com/Shougo/neocomplcache">neocomplcache</a> - Ultimate auto completion system for Vim </li>
+<li>
+<a href="http://github.com/mattn/zencoding-vim">zencoding</a> - High speed HTML and CSS coding.</li>
+</ul><h2>Surrounding Operation</h2>
+
+<ul>
+<li>
+<a href="http://github.com/Raimondi/delimitMate">delimitMate</a> - Provides auto-balancing and some expansions for parens, quotes, etc.</li>
+<li>
+<a href="http://github.com/tsaleh/vim-matchit">matchit</a> - Extended % matching for HTML, LaTeX, and many other languages.</li>
+<li>
+<a href="http://github.com/tpope/vim-surround">surround</a> - Easily delete, change and add such surroundings in pairs.</li>
+</ul><h2>Code Reading</h2>
+
+<ul>
+<li>
+<a href="http://github.com/scrooloose/nerdtree">nerdtree</a> - A tree explorer plugin for navigating the filesystem.</li>
+<li>
+<a href="http://github.com/scrooloose/nerdcommenter">nerdcommenter</a> - Easy commenting of code for many filetypes. </li>
+<li>
+<a href="http://github.com/majutsushi/tagbar">tagbar</a> - Displays the tags of the current file in a sidebar</li>
+<li>
+<a href="http://github.com/vim-scripts/TabBar">tabbar</a> -  Add tab bar and quickt tab switch with alt+1~9</li>
+<li>
+<a href="http://github.com/mileszs/ack.vim">ack-vim</a> - Front for the Perl module App::Ack.</li>
+</ul><h3>Dependencies</h3>
+
+<div class="highlight">
+<pre>yaourt -S ack ctags                  <span class="c"># ArchLinux</span>
+sudo apt-get install ack-grep ctags  <span class="c"># ubuntu</span>
+</pre>
+</div>
+
+
+<h3>Tutorial</h3>
+
+<ul>
+<li><a href="http://lovemaple.info/blog/2011/12/effective-vim-part1-code-reading-with-vim/">Code Reading with Vim</a></li>
+</ul><h3>Shortcuts</h3>
+
+<ul>
+<li>
+<code>F5</code> -&gt; Toggle Nerd-Tree file viewer</li>
+<li>
+<code>F6</code> -&gt; Toggle tagbar</li>
+<li>
+<code>Ctrl</code> + <code>j</code> -&gt; Call zen-coding expansion on html tags</li>
+<li>
+<code>Alt</code> + <code>1~9</code> -&gt; Switch between multiple buffers</li>
+<li>
+<code>Ctrl</code> + <code>h/j/k/l</code> -&gt; Moving between spilt windows</li>
+</ul><h2>Better syntax/indent for language enhancement</h2>
+
+<ul>
+<li>
+<a href="http://github.com/tpope/vim-markdown">markdown</a> -  Syntax highlight for Markdown text files.</li>
+<li>
+<a href="http://github.com/nono/jquery.vim">jquery</a> - </li>
+<li>[cvim] - For C and C++ completion</li>
+<li>
+<a href="http://github.com/pangloss/vim-javascript">javascript</a> - </li>
+<li>[jsbeautify] - To write more beautiful codes</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mydotvim maintained by <a href="https://github.com/choidi">choidi</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
